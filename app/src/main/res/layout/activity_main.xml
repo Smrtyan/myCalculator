@@ -4,30 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:orientation="vertical"
+    android:orientation="vertical" >
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="300sp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="0"
-            android:id="@+id/tv_showText"
-            android:layout_gravity="end"
-            android:textAlignment="textEnd"
-            />
-    </LinearLayout>
-  <GridLayout
-      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/tv_showText"
+        android:layout_gravity="end"
+        android:layout_weight="2"
+        android:textSize="48sp"
+        android:textAlignment="textEnd"
+        />
+    <GridLayout
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:id="@+id/grid_buttonGroup"
+        android:layout_weight="1"
       android:columnCount="4"
       android:rowCount="4"
       >
 
-  </GridLayout>
+    </GridLayout>
 
 </LinearLayout>
