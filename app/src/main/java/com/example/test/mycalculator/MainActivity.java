@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         clearCal();
         GenerateButton();
-        LinearLayout line = (LinearLayout) findViewById(R.id.layout_line);
     }
 
     public void buttonClick(View view){
